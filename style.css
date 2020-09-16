@@ -3,6 +3,49 @@
 	font-size: 50px;
 }
 
-.div2-left{
-	float: left;
+
+.div2 {
+    display: block;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.div-box{
+}
+
+.div2-left {
+	display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+
+}
+.div2-right {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.debat{
+	color: DodgerBlue;
+	font-weight: bold;
+}
+
+.arkiv{
+	color: white;
+}
+
+.arkiv span{
+	background-color: DodgerBlue;
+}
+
+.div-2-1-img{
+	height: 75%;
+	width: 75%;
+}
+
+.div-2-2-img{
+	height: 50%;
+	width: 50%;
+
 }
