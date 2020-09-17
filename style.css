@@ -3,27 +3,30 @@
 	font-size: 50px;
 }
 
+p, h2{
+	color: black;
+}
+
 
 .div2 {
     display: block;
-    border: 1px solid black;
+    border: 1px;
+    height: 100%;
     overflow: hidden;
     text-align: center;
 }
 
-.div-box{
-}
+
 
 .div2-left {
 	display: inline-block;
-    border: 1px solid black;
     width: 30%;
-
+    vertical-align: top;
 }
 .div2-right {
     display: inline-block;
-    border: 1px solid black;
     width: 20%;
+    vertical-align: top;
 }
 
 .debat{
@@ -39,13 +42,31 @@
 	background-color: DodgerBlue;
 }
 
+.author{
+	font-weight: bold;
+}
+
 .div-2-1-img{
-	height: 75%;
-	width: 75%;
+	height: 100%;
+	width: 90%;
 }
 
 .div-2-2-img{
-	height: 50%;
-	width: 50%;
+
+	width: 84%;
 
 }
+
+.vl{
+	display: inline-block;
+  	border-left: 1px solid grey;
+  	height: 760px;
+
+  	opacity: 25%
+}
+
+.hl{
+	width: 50%;
+	opacity: 35%
+}
+
